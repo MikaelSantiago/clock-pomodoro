@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#buttons, #controls {
+    display: flex;
+}
+
+#buttons {
+    margin-left: 35px;
+}
+
+.container-controls {
+    margin-left: 20px;
+}
+
+#break-label, #session-label, #break-length, #session-length{
+    font-size: 30px;
+}
+
+#break-decrement, #session-decrement, #break-increment, #session-increment{
+    font-size: 26px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.container-clock {
+    border: 6.4px solid rgb(19, 53, 58);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 160px;
+}
+
+#timer-label {
+    margin: 0;
+    font-size: 30px;
+}
+
+#time-left {
+    font-size: 80px;
+}
+
+body {
+    background-color: #1c545c;
+}
+
+* {
+    color: white;
+}
+
+button {
+    background-color: #1c545c;
+    border: none;
+}
+
+#playAndReset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset, #start_stop {
+    font-size: 26px;
+}
